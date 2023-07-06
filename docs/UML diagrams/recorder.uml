@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>nz.ac.vuw.ecs.swen225.gp22.recorder</OriginalElement>
+  <nodes>
+    <node x="107.89036195164465" y="520.0324392407248">nz.ac.vuw.ecs.swen225.gp22.recorder.Step</node>
+    <node x="-205.80130845673378" y="47.76190354978388">nz.ac.vuw.ecs.swen225.gp22.recorder.Replayer</node>
+    <node x="219.02307301696237" y="93.44615803055706">nz.ac.vuw.ecs.swen225.gp22.recorder.Recorder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="nz.ac.vuw.ecs.swen225.gp22.recorder.Recorder" target="nz.ac.vuw.ecs.swen225.gp22.recorder.Step" relationship="TO_MANY">
+      <point x="-181.5" y="159.5" />
+      <point x="38.13271106531772" y="-94.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp22.recorder.Recorder" target="nz.ac.vuw.ecs.swen225.gp22.recorder.Replayer" relationship="CREATE">
+      <point x="-189.0" y="20.815745519226823" />
+      <point x="119.5" y="0.0" />
+    </edge>
+    <edge source="nz.ac.vuw.ecs.swen225.gp22.recorder.Recorder" target="nz.ac.vuw.ecs.swen225.gp22.recorder.Step" relationship="CREATE">
+      <point x="-166.5" y="159.5" />
+      <point x="53.13271106531772" y="-94.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8682385575589459" showDependencies="true" x="271.0000000000001" y="407.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
