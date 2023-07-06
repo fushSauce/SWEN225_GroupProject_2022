@@ -1,8 +1,10 @@
 # Chips Challenge
 
+# Gameplay
+![](./readmeAssets/GameRecording2.gif)
+
 ## Description
 Birds eye tile game inspired by [Chips Challenge](https://en.wikipedia.org/wiki/Chip%27s_Challenge) written in Java for the 2022 SWEN225 Group project.
-
 
 ## Setup / Install / Run
 First clone the repo and open in chosen ide.
