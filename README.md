@@ -3,8 +3,6 @@
 ## Description
 Birds eye tile game inspired by [Chips Challenge](https://en.wikipedia.org/wiki/Chip%27s_Challenge) written in Java for the 2022 SWEN225 Group project.
 
-## My module: Persistency
-Persistency handles saving and loading games, this was done by utilising the Jackson Xml serialization and deserialization library and attaching custom serializer and deserializer to main game entities in order to save and load them into the game, then using a Facade esque pattern where other modules can simply call load and save methods.
 
 ## Setup / Install / Run
 First clone the repo and open in chosen ide.

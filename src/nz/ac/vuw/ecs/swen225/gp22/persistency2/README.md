@@ -1,6 +1,9 @@
 # Persistency2 Readme
+
+## About
+Persistency handles saving and loading games, this was done by utilising the Jackson Xml serialization and deserialization library and attaching custom serializer and deserializer to main game entities in order to save and load them into the game, then using a Facade esque pattern where other modules can simply call load and save methods.
 ## Comments
-- Made a persistency2 package because at the time, other modules where using Persistency while I wanted to change its functionality so I made persitency2 to allow people to continue using persitency while I made changes on the 2nd one.
+Made a persistency2 package because at the time, other modules where using Persistency while I wanted to change its functionality so I made persitency2 to allow people to continue using persitency while I made changes on the 2nd one.
 ## Packages
 - `custom`
   - Holds classes related to outside users implementing a CustomMovingEntityService
